@@ -18,6 +18,10 @@ sub {
     transform: translateY(-3px);
 }
 
+header {
+    width: 95%;
+}
+
 header > div#cabecalho {
     background-color: white;
     padding-bottom: 30px;
