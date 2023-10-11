@@ -11,12 +11,16 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    width: 100vw;
+sub {
+    display: inline-block;
+    font-weight: bolder;
+
+    transform: translateY(-3px);
 }
 
 header > div#cabecalho {
     background-color: white;
+    padding-bottom: 30px;
 }
 
 header > div#cabecalho > span {
@@ -77,7 +81,7 @@ header > div#cabecalho > h1 {
 }
 
 header > div#cabecalho > form {
-    margin: 10px;
+    padding: 10px;
 }
 
 header > div#cabecalho > form input {
@@ -102,4 +106,99 @@ header > div#cabecalho > form a {
 
 header > div#cabecalho > form a:hover {
     background-color: lightgray;
+}
+
+/* --------------------------------------------- */
+
+main {
+    display: block;
+    margin: auto;
+    padding: 50px 10px 20px 10px;
+    background-color: rgb(231, 231, 231);
+}
+
+main > section > article > h1 {
+    margin: 0px 0px 10px 0px;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+main > section > article > p {
+    margin: 10px 0px;
+}
+
+main > section > article > img {
+    width: 300px;
+    height: 300px;
+    margin: 10px 0px;
+}
+
+main > section > article > div {
+    display: block;
+    margin: 30px 0px;
+    background-color: white;
+}
+
+main > section > article > div > .roundtrip-gray {
+    color: gray;
+}
+
+main > section > article > div > .buy-tickets {
+    text-indent: 10px;
+}
+
+main > section > article > div > img {
+    width: 300px;
+    height: 150px;
+}
+
+main > section > article > div > h1 {
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+main > section > article > div > p {
+    padding: 10px;
+}
+
+main > section#subscribe > article {
+    background-color: dimgray;
+    padding: 15px 15px 20px 15px;
+}
+
+main > section#subscribe > article > h1 {
+    margin: 15px 0px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+main > section#subscribe > article > p {
+    margin: 10px 0px;
+    color: white;
+}
+
+main > section#subscribe > article > form > div > label {
+    display: inline-block;
+    color: white;
+}
+
+main > section#subscribe > article > form > div > input {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: lightgray;
+    font-size: 1.1em;
+}
+
+main > section#subscribe > article > form > div > a {
+    background-color: rgb(250, 139, 98);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+main > section#subscribe > article > form > div > a:hover {
+    background-color: rgb(255, 139, 96);
 }
