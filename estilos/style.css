@@ -197,13 +197,13 @@ main > section#subscribe > article > form > div > input {
     font-size: 1.1em;
 }
 
-main > section#subscribe > article > form > div > a {
+main > section#subscribe > article > form > div > input[type="submit"] {
     background-color: rgb(250, 139, 98);
     padding: 10px;
     color: white;
     text-decoration: none;
 }
 
-main > section#subscribe > article > form > div > a:hover {
+main > section#subscribe > article > form > div > input[type="submit"]:hover {
     background-color: rgb(255, 180, 152);
 }
