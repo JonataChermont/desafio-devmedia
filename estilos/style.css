@@ -118,7 +118,7 @@ main {
 }
 
 main > section > article {
-    width: 300px;
+    max-width: 300px;
 }
 
 main > section > article > h1 {
