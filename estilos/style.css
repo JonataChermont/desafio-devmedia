@@ -117,6 +117,10 @@ main {
     background-color: rgb(231, 231, 231);
 }
 
+main > section > article {
+    width: 300px;
+}
+
 main > section > article > h1 {
     margin: 0px 0px 10px 0px;
     font-size: 1.5em;
@@ -163,6 +167,7 @@ main > section > article > div > p {
 }
 
 main > section#subscribe > article {
+    width: 300px;
     background-color: dimgray;
     padding: 15px 15px 20px 15px;
 }
