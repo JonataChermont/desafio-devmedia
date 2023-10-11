@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > div#cabecalho {
+    background-color: white;
+}
+
+header > div#cabecalho > span {
+    color: orangered;
+    font-size: 1.5em;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+header > div#cabecalho > p {
+    display: inline-block;
+    font-size: 1.5em;
+    color: orangered;
+    margin-bottom: 5px;
+
+    transform: translateY(-2px);
+}
+
+header > div#cabecalho > span#search {
+    float: right;
+    color: gray;
+    font-size: 1.8em;
+}
+
+header > div#cabecalho > nav {
+    background-color: black;
+}
+
+header > div#cabecalho > nav > div {
+    display: inline-block;
+    background-color: orangered;
+}
+
+header > div#cabecalho > nav span {
+    color: white;
+    font-size: 1.3em;
+    padding-left: 10px;
+}
+
+header > div#cabecalho > nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 8px 3px 0px;
+
+    transform: translateY(-3px);
+}
+
+header > div#cabecalho > nav a:hover {
+    text-decoration: underline;
+}
+
+header > div#cabecalho > h1 {
+    margin: 10px 10px 0px 10px;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+header > div#cabecalho > form {
+    margin: 10px;
+}
+
+header > div#cabecalho > form input {
+    width: 90%;
+    padding: 10px;
+}
+
+header > div#cabecalho > form > div {
+    margin-top: 10px;
+}
+
+header > div#cabecalho > form > div#link {
+    margin-top: 20px;
+}
+
+header > div#cabecalho > form a {
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header > div#cabecalho > form a:hover {
+    background-color: lightgray;
+}
