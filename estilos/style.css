@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 * {
     margin: 0px;
@@ -10,15 +11,8 @@ html, body {
     margin: auto;
     max-width: 320px;
     height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color:  rgb(231, 231, 231);
-}
-
-sub {
-    display: inline-block;
-    font-weight: bolder;
-
-    transform: translateY(-3px);
 }
 
 header {
@@ -75,7 +69,7 @@ header > div#cabecalho > nav a {
     color: white;
     text-decoration: none;
     font-size: 1.1em;
-    padding: 10px 8px 3px 0px;
+    padding: 10px 7px 3px 0px;
 
     transform: translateY(-3px);
 }
@@ -124,8 +118,25 @@ main {
     display: block;
     margin: auto;
     max-width: 320px;
-    padding: 50px 10px 20px 10px;
+    padding: 50px 10px 0px 10px;
     background-color: rgb(231, 231, 231);
+}
+
+main h1 {
+    margin: 0px 0px 10px 0px;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+main p {
+    margin: 10px 0px;
+}
+
+main sub {
+    display: inline-block;
+    font-weight: bolder;
+
+    transform: translateY(-3px);
 }
 
 main > section > article {
@@ -134,76 +145,65 @@ main > section > article {
     max-width: 300px;
 }
 
-main > section > article > h1 {
-    margin: 0px 0px 10px 0px;
-    font-size: 1.5em;
-    font-weight: lighter;
-}
-
-main > section > article > p {
-    margin: 10px 0px;
-}
-
 main > section > article > img {
     width: 300px;
     height: 200px;
     margin: 10px 0px;
 }
 
-main > section > article > div {
+main > section.explore-nature > article > div {
     display: block;
     margin: 30px 0px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
-main > section > article > div > .roundtrip-gray {
-    color: gray;
-}
-
-main > section > article > div > .buy-tickets {
-    text-indent: 10px;
-}
-
-main > section > article > div > img {
+main > section.explore-nature > article > div > img {
     width: 300px;
     height: 150px;
 }
 
-main > section > article > div > h1 {
-    padding: 10px;
-    font-size: 1.5em;
-    font-weight: lighter;
+main > section.explore-nature > article > div > h1 {
+    margin: 10px 0px 10px 10px;
 }
 
-main > section > article > div > p {
+main > section.explore-nature > article > div > p {
     padding: 10px;
 }
 
-main > section#subscribe > article {
+main > section.explore-nature > article > div > .roundtrip-gray {
+    color: gray;
+}
+
+main > section.explore-nature > article > div > .buy-tickets {
+    text-indent: 10px;
+    padding-bottom: 20px;
+}
+
+main > section.subscribe > article {
     width: 270px;
     padding: 10px;
     background-color: dimgray;
 }
 
-main > section#subscribe > article > h1 {
+main > section.subscribe > article > h1 {
     margin: 15px 0px;
     color: white;
     font-size: 1.5em;
     font-weight: lighter;
 }
 
-main > section#subscribe > article > p {
+main > section.subscribe > article > p {
     margin: 10px 0px;
     color: white;
 }
 
-main > section#subscribe > article > form > div > label {
+main > section.subscribe > article > form > div > label {
     display: inline-block;
     margin: 10px 0px 5px 0px;
     color: white;
 }
 
-main > section#subscribe > article > form > div > input {
+main > section.subscribe > article > form > div > input {
     width: 92%;
     margin-bottom: 20px;
     padding: 10px;
@@ -211,8 +211,8 @@ main > section#subscribe > article > form > div > input {
     font-size: 1.1em;
 }
 
-main > section#subscribe > article > form > div > input[type="submit"] {
-    background-color: rgb(250, 139, 98);
+main > section.subscribe > article > form > div > input[type="submit"] {
+    background-color: #f44336;
     width: 125px;
     padding: 10px;
     color: white;
@@ -220,6 +220,73 @@ main > section#subscribe > article > form > div > input[type="submit"] {
     border: none;
 }
 
-main > section#subscribe > article > form > div > input[type="submit"]:hover {
+main > section.subscribe > article > form > div > input[type="submit"]:hover {
     background-color: rgb(255, 180, 152);
+}
+
+main > section.contact > article {
+    padding: 10px 10px 0px 10px;
+}
+
+main > section.contact > article > div > span {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 1em;
+}
+
+main > section.contact > article > div > p {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.8em;
+
+    transform: translateY(-3px);
+}
+
+main > section.contact > article > form {
+    margin: 10px 0px;
+}
+
+main > section.contact > article > form > div > input {
+    padding: 10px;
+    margin: 5px 0px;
+    width: 92%;
+}
+
+main > section.contact > article > form > div > input[type="submit"] {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 50%;
+}
+
+main > section.contact > article > form > div > input[type="submit"]:hover {
+    background-color: rgba(53, 53, 53, 0.705);
+}
+
+/* --------------------------------------------------------- */
+
+footer {
+    display: block;
+    padding: 0px 10px 20px 10px;
+}
+
+footer > h1 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 20px 0px;
+}
+
+footer > p > a {
+    display: inline-block;
+    margin: 0px 2px;
+    text-align: center;
+    color: gray;
+    font-size: 1.2em;
+}
+
+footer > p {
+    text-align: center;
+    margin-top: 20px;
 }

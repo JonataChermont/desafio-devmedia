@@ -52,7 +52,7 @@
                 <img src="imagens/paris.jpg" alt="">
             </article>
         </section>
-        <section>
+        <section class="explore-nature">
             <article>
                 <h1>Explore Nature</h1>
                 <p>Travel with us and see nature at its finest.</p>
@@ -65,7 +65,7 @@
                 </div>
             </article>
         </section>
-        <section>
+        <section class="explore-nature">
             <article>
                 <div>
                     <img src="imagens/mountains.jpg" alt="">
@@ -76,7 +76,7 @@
                 </div>
             </article>
         </section>
-        <section id="subscribe">
+        <section class="subscribe">
             <article>
                 <h1>Get the best offers firrst!</h1>
                 <p>Join our newsletter.</p>
@@ -91,13 +91,15 @@
                 </form>
             </article>
         </section>
-        <section>
+        <section class="contact">
             <article>
                 <h1>Contact</h1>
                 <p>Let us book your next trip!</p>
-                <p>Chicago, US</p>
-                <p>Phone: +00 151515</p>
-                <p>Email: mail@mail.com</p>
+                <div>
+                    <span class="material-symbols-outlined">location_on</span><p>Chicago, US</p><br>
+                    <span class="material-symbols-outlined">call</span><p>Phone: +00 151515</p><br>
+                    <span class="material-symbols-outlined">mail</span><p>Email: mail@mail.com</p>
+                </div>
                 <form action="contato.php" method="post" autocomplete="on">
                     <div>
                         <input type="text" name="name" id="idname" required minlength="8" maxlength="70" autocomplete="name" placeholder="Name">
@@ -116,9 +118,17 @@
         </section>
     </main>
     <footer>
-        <P>Find Us On</P>
-        <div></div>
+        <h1>Find Us On</h1>
+        <p>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-square-snapchat"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </p>
         <p>Powered by <ins>w3.css</ins></p>
     </footer>
+    <script src="https://kit.fontawesome.com/e8402cfb9a.js" crossorigin="anonymous"></script>
 </body>
 </html>
